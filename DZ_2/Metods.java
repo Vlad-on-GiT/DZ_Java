@@ -116,4 +116,12 @@ public class Metods {
         System.out.print("Возвращаемое значение: ");
         System.out.println(Str.trim());
     }
+
+    public static void CheckIsOnlyDigit (String str) {
+        if (str.chars().allMatch(Character::isDigit))
+            System.out.println("В строке только цифры.");
+        else
+            System.out.println("В строке имеются иные символы.");
+    }
+
 }

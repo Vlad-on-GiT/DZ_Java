@@ -1,9 +1,9 @@
 package DZ_2;
-
-import DZ_1.ConsoleColors;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         Metods.CharAt();
         System.out.println("_".repeat(30));
         Metods.CompareTo();
@@ -27,6 +27,9 @@ public class Main {
         Metods.ToCharArray();
         System.out.println("_".repeat(30));
         Metods.Trim();
+        System.out.println("_".repeat(30));
+        System.out.println("Введите строку для проверки на числа: ");
+        Metods.CheckIsOnlyDigit(in.nextLine());
 
 
     }
