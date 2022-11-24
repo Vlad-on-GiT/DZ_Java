@@ -124,4 +124,8 @@ public class Metods {
             System.out.println("В строке имеются иные символы.");
     }
 
+    public static void ConcatStr (int count, String str) {
+        System.out.println(str.concat(str).repeat(count));
+    }
+
 }

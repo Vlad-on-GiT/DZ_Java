@@ -30,6 +30,12 @@ public class Main {
         System.out.println("_".repeat(30));
         System.out.println("Введите строку для проверки на числа: ");
         Metods.CheckIsOnlyDigit(in.nextLine());
+        System.out.println("_".repeat(30));
+        System.out.println("Введите строку для склеивания: ");
+        String str = in.nextLine();
+        System.out.println("Сколько раз склеить? ");
+        int count = Integer.parseInt(in.nextLine());
+        Metods.ConcatStr(count, str);
 
 
     }
