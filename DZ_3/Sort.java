@@ -9,7 +9,7 @@ public class Sort {
             System.out.print(arr[i] + " ");
     }
 
-    private static void mergeSort ( int[] arr){   // Создание метода сортировки
+    public static void mergeSort ( int[] arr){   // Создание метода сортировки
         int n = arr.length;                       // создаем переменную  размером массива
         if (n == 1) return;                       // условие выхода из рекурсии
 
