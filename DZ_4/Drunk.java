@@ -1,4 +1,4 @@
-package DZ_5;
+package DZ_4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -49,7 +49,7 @@ public class Drunk {
             arrFirst.remove(0);
             count++;
         }
-        
+
         if (count < 10000) {
             if (!arrFirst.isEmpty()) {
                 System.out.println("First " + count);
